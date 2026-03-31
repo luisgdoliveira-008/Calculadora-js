@@ -22,3 +22,17 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.controls {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
