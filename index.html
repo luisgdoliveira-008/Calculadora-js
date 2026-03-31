@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora HTML, CSS, JS.</title>
+</head>
+<body>
+
+    <div class="calc-card">
+        <h1>Calculadora Simples</h1>
+    
+        <div class="inputs">
+            <input type="number" id="num1" placeholder="Número 1">
+            <input type="number" id="num2" placeholder="Número 2">
+        </div>
+
+        <div class="controls">
+            <button onclick="operacao('soma')">+</button>
+            <button onclick="operacao('sub')">-</button>
+            <button onclick="operacao('mult')">×</button>
+            <button onclick="operacao('div')">÷</button>
+        </div>
+
+        <div id="resultado-container">
+            <span>Resultado:</span>
+            <strong id="res-valor">0</strong>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
