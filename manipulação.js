@@ -36,7 +36,7 @@ function operacao(tipo) {
     }
 
 
-    display.innerText = typeof resultado === 'number'  
-    resultado;
+display.innerText = resultado;
+
 }
 
